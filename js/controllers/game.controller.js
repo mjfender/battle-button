@@ -43,7 +43,7 @@ class GameController {
     this.$button.hide()
     this.$button.unbind("click")
     this.clicks = 0
-    alert('Click or tap to guess where the button is hidden');
+    alert('Click or tap to guess where the button is hidden. Use the hints to find the button in as few guesses as possible.');
     this.$board.click( (event) => this.handleGuess(event, newGame))
   }
 
